@@ -47,3 +47,10 @@ console.log(division);
 
 let modulo = nbr4%nbr1;
 console.log(modulo);
+
+let nomSerie = prompt('Quelle est ta série préférée ?');
+// "Jojo's Bizarre Adventure"
+let nomPerso = prompt('Quel est tON PERSONNAGE préféré ?');
+// "Foo Fighters"
+
+alert(`Ma série préférée est ${nomSerie} et mon personnage est ${nomPerso}!`);
