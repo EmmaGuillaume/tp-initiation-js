@@ -58,11 +58,12 @@ let j = 0;
 
 // 	console.log(i,j);
 // }
+let tab = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
+for ( let i =0 ; i<8; i++){
+	console.log(tab[i]);
+}
 
-let number = Number(prompt("Donne nombre"));
-do {
-  j += i;
-  i++;
-} while (i <= number);
-console.log(j)
+for ( let i =0 ; i<tab.length; i++){
+	console.log(tab[i]);
+}
