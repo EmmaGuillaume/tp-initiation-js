@@ -48,16 +48,21 @@
 //   default:
 // }
 
+let i = 0;
+let j = 0;
+
+// while (i<=100){
+
+// 	j +=i;
+// 	i++;
+
+// 	console.log(i,j);
+// }
 
 
-let i =0;
-let j =0;
-
-while (i<=100){
-	
-	j +=i;
-	i++;
-	
-	console.log(i,j);
-}
+let number = Number(prompt("Donne nombre"));
+do {
+  j += i;
+  i++;
+} while (i <= number);
 console.log(j)
