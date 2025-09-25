@@ -1,69 +1,12 @@
-// let number = 5;
-// let text = '5';
-// let isRainingToday = true;
+/* Toutes les variables */
+let li = document.querySelector("#listeCourses li");
 
-// if (number == text){
-// 	console.log("double égale")
-// }
-// if (number === text){
-// 	console.log("triple monstre")
-// }
-// if (isRainingToday){
-// 	console.log(isRainingToday)
-// }
+/* Tous les évènements */
+li.addEventListener("click", (e) => {
+  console.log("a");
+  e.target.style.backgroundColor = "lightblue";
+  e.target.style.textDecoration = "line-through";
+});
 
-// let age = Number(prompt("Ton age"));
-// console.log(age);
-
-// if (age < 18) {
-//   console.log("T'es mineur");
-// } else if (age == 18) {
-//   console.log("il vient d’être majeur");
-// } else if (age == 25) {
-//   console.log("quart siecle");
-// } else if (age == 50) {
-//   console.log("demi siecle");
-// } else if (age == 62) {
-//   console.log("retraite");
-// } else if (age == 100) {
-//   console.log("centenaire");
-// }
-
-// switch (age) {
-//   case 18:
-//     console.log("il vient d’être majeur");
-//     break;
-//   case 25:
-//     console.log("quart siecle");
-//     break;
-//   case 50:
-//     console.log("demi siecle");
-//     break;
-//   case 62:
-//     console.log("retraite");
-//     break;
-//   case 100:
-//     console.log("centenaire");
-//     break;
-//   default:
-// }
-
-let i = 0;
-let j = 0;
-
-// while (i<=100){
-
-// 	j +=i;
-// 	i++;
-
-// 	console.log(i,j);
-// }
-let tab = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-
-for ( let i =0 ; i<8; i++){
-	console.log(tab[i]);
-}
-
-for ( let i =0 ; i<tab.length; i++){
-	console.log(tab[i]);
-}
+/* Les fonctions */
+// A voir plus tard
